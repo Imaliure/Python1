@@ -9,7 +9,7 @@ try:
     else:
         print(f"{sayi} tek bir sayıdır.")
 except:
-    print('Lutfen Tam sayi giriniz')
+    print('Lütfen geçerli bir tam sayı girin.')
 
 
 # 2 ===========================================================================
@@ -56,6 +56,6 @@ try:
         # Sonucu ekrana yazdır
         print(f"Yaş grubunuz: {yas_grubu}")
 
-except ValueError:
-    print("Hata: Lütfen geçerli bir tam sayı girin.")
+except:
+    print("Lütfen geçerli bir tam sayı girin.")
 
